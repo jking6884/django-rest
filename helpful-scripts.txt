@@ -16,3 +16,6 @@ docker-compose run web python manage.py startapp app
 // create a migration
 python manage.py makemigrations snippets
 python manage.py migrate
+
+// create a superuser
+python manage.py createsuperuser
